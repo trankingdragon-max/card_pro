@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-h {
+  max-width: 100vw;
+  padding-right: 10px;
+}
+img {
+  padding: 40px;
+}
+img:nth-child(1) {
+  width: 200px;
+  height: 400px;
+}
+img:nth-child(2) {
+  width: 250px;
+  height: 400px;
+}
+img:nth-child(3) {
+  width: 200px;
+  height: 400px;
+}
+img:nth-child(4) {
+  width: 200px;
+  height: 400px;
+  padding-left: 20px;
+}
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price aside h2 {
+  padding-right: 40px;
+}
+.label {
+  display: flex;
+  justify-content: space-between;
+  alight-center: center;
+}
+.label aside {
+  padding-right: 20px;
+}
